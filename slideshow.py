@@ -28,6 +28,10 @@ def slideshow(set, small=None):
     """
     Generate a slideshow of a set of images, randomly selecting one to
     show first, unless a file is specified.
+
+    @param set: (cough) string representing a directory name under /images/
+    @param small: string representing a filename under /images/{set}/small/
+    @returns: A string containing html with a div that has slideshow functionality.
     """
     try:
         if small == None or small == "":
