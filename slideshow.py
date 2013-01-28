@@ -20,8 +20,8 @@ from glob import glob
 
 # dummy dictionary replacing Zookeepr config
 file_paths = {
-    'public_html': 'html',
-    'public_path': 'path',
+    'public_html': 'test_data/html',
+    'public_path': 'test_data/path',
 }
 
 def slideshow(set, small=None):
